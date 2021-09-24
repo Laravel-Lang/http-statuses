@@ -10,7 +10,7 @@ List of 77 languages for HTTP statuses
 
 ## Installation
 
-To get the latest version of `Extended Lang Translations Template` library, simply require the project using [Composer](https://getcomposer.org):
+To get the latest version of `Laravel Lang: HTTP Statuses` library, simply require the project using [Composer](https://getcomposer.org):
 
 ```
 $ composer require laravel-lang/http-statuses --dev
