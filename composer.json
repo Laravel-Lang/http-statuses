@@ -1,0 +1,29 @@
+{
+    "name": "<your_namespace>",
+    "description": "Extended translations for Laravel Projects",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "languages", "lang", "translations", "messages"],
+    "authors": [
+        {
+            "name": "Andrey Helldar",
+            "email": "helldar@ai-rus.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "andrey-helldar/laravel-lang-publisher": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\Translations\\": "src"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

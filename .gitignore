@@ -1,0 +1,10 @@
+.idea/
+
+vendor/
+build/
+
+*.cache
+*.clover
+*.orig
+
+composer.lock
