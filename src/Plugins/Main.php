@@ -10,13 +10,13 @@ class Main extends BasePlugin
 {
     public function vendor(): string
     {
-        return 'laravel-lang/http-statuses';
+        return 'laravel';
     }
 
     public function files(): array
     {
         return [
-            'errors.php' => '{locale}/http-statuses.php',
+            'http-statuses.php' => '{locale}/http-statuses.php',
         ];
     }
 }

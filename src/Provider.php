@@ -9,14 +9,14 @@ use LaravelLang\HttpStatuses\Plugins\Main;
 
 class Provider extends BaseProvider
 {
-    public function name(): string
+    public function basePath(): string
     {
-        return 'laravel-lang/http-statuses';
+        return __DIR__ . '/../';
     }
 
     public function plugins(): array
     {
-        $this->resolvePlugins([
+        return $this->resolvePlugins([
             Main::class,
         ]);
     }
