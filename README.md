@@ -33,7 +33,7 @@ Instead, you may of course manually update your `require` block and run `compose
 ## Using
 
 To install files from this repository into your project, you need to install the [andrey-helldar/laravel-lang-publisher](https://github.com/andrey-helldar/laravel-lang-publisher)
-version `10` and above and specify the namespace of this project in its configuration.
+version `^10.1` and above and specify the namespace of this project in its configuration.
 
 For example:
 
