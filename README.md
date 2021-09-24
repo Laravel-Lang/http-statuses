@@ -7,10 +7,6 @@ List of 77 languages for HTTP statuses
 [![Total Downloads][badge_downloads]][link_packagist]
 [![License][badge_license]][link_license]
 
-## Prepare Template
-
-Replace `laravel-lang/http-statuses` with your package namespace.
-
 
 ## Installation
 
