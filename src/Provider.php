@@ -11,7 +11,7 @@ class Provider extends BaseProvider
 {
     public function basePath(): string
     {
-        return __DIR__ . '/../';
+        return base_path('vendor/laravel-lang/http-statuses');
     }
 
     public function plugins(): array
