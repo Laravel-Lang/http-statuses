@@ -2,26 +2,22 @@
 
 declare(strict_types=1);
 
-namespace YourNamespace\Translations;
+namespace LaravelLang\HttpStatuses;
 
 use Helldar\LaravelLangPublisher\Plugins\BaseProvider;
-use YourNamespace\Translations\Plugins\Bar;
-use YourNamespace\Translations\Plugins\Foo;
-use YourNamespace\Translations\Plugins\Main;
+use LaravelLang\HttpStatuses\Plugins\Main;
 
 class Provider extends BaseProvider
 {
     public function basePath(): string
     {
-        return base_path('vendor/<your_namespace>');
+        return __DIR__ . '/../';
     }
 
     public function plugins(): array
     {
         $this->resolvePlugins([
             Main::class,
-            Foo::class,
-            Bar::class,
         ]);
     }
 }

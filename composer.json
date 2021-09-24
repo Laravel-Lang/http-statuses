@@ -1,29 +1,33 @@
 {
-    "name": "<your_namespace>",
-    "description": "Extended translations for Laravel Projects",
+    "name": "laravel-lang/http-statuses",
+    "description": "List of 77 languages for HTTP statuses",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "languages", "lang", "translations", "messages"],
+    "keywords": ["laravel", "languages", "lang", "translations", "messages", "http", "status"],
     "authors": [
         {
             "name": "Andrey Helldar",
             "email": "helldar@ai-rus.com"
+        },
+        {
+            "name": "Laravel-Lang Team",
+            "homepage": "https://github.com/Laravel-Lang"
         }
     ],
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
-        "andrey-helldar/laravel-lang-publisher": "^10.1"
+        "andrey-helldar/laravel-lang-publisher": "^10.1-RC1"
     },
     "autoload": {
         "psr-4": {
-            "YourNamespace\\Translations\\": "src"
+            "LaravelLang\\HttpStatuses\\": "src"
         }
     },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

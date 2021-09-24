@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourNamespace\Translations\Plugins;
+namespace LaravelLang\HttpStatuses\Plugins;
 
 use Helldar\LaravelLangPublisher\Plugins\BasePlugin;
 
@@ -10,14 +10,13 @@ class Main extends BasePlugin
 {
     public function vendor(): string
     {
-        return '<your_namespace>';
+        return 'laravel-lang/http-statuses';
     }
 
     public function files(): array
     {
         return [
-            'en.json'    => '{locale}.json',
-            'custom.php' => '{locale}/custom.php',
+            'errors.php' => '{locale}/http-statuses.php',
         ];
     }
 }
