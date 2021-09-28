@@ -52,12 +52,15 @@ return [
     '422' => 'Unprocessable Entity',
     '423' => 'Locked',
     '424' => 'Failed Dependency',
+    '425' => 'Too Early',
     '426' => 'Upgrade Required',
     '428' => 'Precondition Required',
     '429' => 'Too Many Requests',
     '431' => 'Request Header Fields Too Large',
+    '444' => 'Connection Closed Without Response',
     '449' => 'Retry With',
     '451' => 'Unavailable For Legal Reasons',
+    '499' => 'Client Closed Request',
 
     '500' => 'Internal Server Error',
     '501' => 'Not Implemented',
@@ -78,4 +81,7 @@ return [
     '524' => 'A Timeout Occurred',
     '525' => 'SSL Handshake Failed',
     '526' => 'Invalid SSL Certificate',
+    '527' => 'Railgun Error',
+    '598' => 'Network Read Timeout Error',
+    '599' => 'Network Connect Timeout Error',
 ];
