@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'unknownError' => 'Unknown Error',
-    '0'            => 'Unknown Error',
+    'unknownError' => 'خطای ناشناخته',
+    '0'            => 'خطای ناشناخته',
 
     '100' => 'Continue',
     '101' => 'Switching Protocols',
