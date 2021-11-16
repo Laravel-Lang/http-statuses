@@ -41,7 +41,7 @@ return [
     '410' => 'رفته',
     '411' => 'طول مورد نیاز است',
     '412' => 'پیش شرط با شکست مواجه شده',
-    '413' => 'Payload Too Large',
+    '413' => 'موجودیت درخواست بسیار بزرگ است',
     '414' => 'URI Too Long',
     '415' => 'Unsupported Media Type',
     '416' => 'Range Not Satisfiable',
