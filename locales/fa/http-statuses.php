@@ -28,7 +28,7 @@ return [
     '307' => 'تغییر مسیر موقت',
     '308' => 'Permanent Redirect',
 
-    '400' => 'Bad Request',
+    '400' => 'درخواست ناصحیح',
     '401' => 'Unauthorized',
     '402' => 'Payment Required',
     '403' => 'Forbidden',
