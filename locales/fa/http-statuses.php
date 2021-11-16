@@ -39,7 +39,7 @@ return [
     '408' => 'وقفهٔ درخواست',
     '409' => 'ناسازگاری',
     '410' => 'رفته',
-    '411' => 'Length Required',
+    '411' => 'طول مورد نیاز است',
     '412' => 'Precondition Failed',
     '413' => 'Payload Too Large',
     '414' => 'URI Too Long',
