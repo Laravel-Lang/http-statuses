@@ -62,7 +62,7 @@ return [
     '500' => 'خطای داخلی سرور',
     '501' => 'اجرا نشده',
     '502' => 'درگاه خراب',
-    '503' => 'Maintenance Mode',
+    '503' => 'سرویس در دسترس نیست',
     '504' => 'Gateway Timeout',
     '505' => 'HTTP Version Not Supported',
     '506' => 'Variant Also Negotiates',
