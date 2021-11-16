@@ -60,7 +60,7 @@ return [
     '451' => 'Unavailable For Legal Reasons',
 
     '500' => 'خطای داخلی سرور',
-    '501' => 'Not Implemented',
+    '501' => 'اجرا نشده',
     '502' => 'Bad Gateway',
     '503' => 'Maintenance Mode',
     '504' => 'Gateway Timeout',
