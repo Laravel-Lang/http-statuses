@@ -29,7 +29,7 @@ return [
     '308' => 'Permanent Redirect',
 
     '400' => 'درخواست ناصحیح',
-    '401' => 'Unauthorized',
+    '401' => 'مجاز نیست',
     '402' => 'Payment Required',
     '403' => 'Forbidden',
     '404' => 'Page Not Found',
