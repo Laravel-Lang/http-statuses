@@ -59,7 +59,7 @@ return [
     '449' => 'Retry With',
     '451' => 'Unavailable For Legal Reasons',
 
-    '500' => 'Internal Server Error',
+    '500' => 'خطای داخلی سرور',
     '501' => 'Not Implemented',
     '502' => 'Bad Gateway',
     '503' => 'Maintenance Mode',
