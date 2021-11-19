@@ -77,5 +77,5 @@ return [
     '523' => 'Origin Is Unreachable',
     '524' => 'A Timeout Occurred',
     '525' => 'SSL Handshake Failed',
-    '526' => 'Invalid SSL Certificate',
+    '526' => 'گواهی SSL نامعتبر',
 ];
