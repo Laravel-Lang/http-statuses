@@ -71,7 +71,7 @@ return [
     '509' => 'Bandwidth Limit Exceeded',
     '510' => 'Not Extended',
     '511' => 'Network Authentication Required',
-    '520' => 'Unknown Error',
+    '520' => 'خطای ناشناخته',
     '521' => 'Web Server is Down',
     '522' => 'Connection Timed Out',
     '523' => 'Origin Is Unreachable',
