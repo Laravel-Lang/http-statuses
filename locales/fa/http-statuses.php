@@ -74,8 +74,8 @@ return [
     '520' => 'خطای ناشناخته',
     '521' => 'Web Server is Down',
     '522' => 'Connection Timed Out',
-    '523' => 'Origin Is Unreachable',
-    '524' => 'A Timeout Occurred',
-    '525' => 'SSL Handshake Failed',
+    '523' => 'Origin قابل دستیابی نیست',
+    '524' => 'مهلت زمانی تمام شد.',
+    '525' => 'SSL Handshake با شکست مواجه شد',
     '526' => 'گواهی SSL نامعتبر',
 ];
