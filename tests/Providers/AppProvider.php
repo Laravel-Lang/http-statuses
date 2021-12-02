@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\Providers;
 
-use LaravelLang\HttpStatuses\Provider as AppProvider;
+use LaravelLang\HttpStatuses\Provider as BaseProvider;
 
-class HttpStatusesProvider extends AppProvider
+class AppProvider extends BaseProvider
 {
     public function basePath(): string
     {

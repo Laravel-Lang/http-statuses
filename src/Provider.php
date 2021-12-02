@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace LaravelLang\HttpStatuses;
 
-use Helldar\LaravelLangPublisher\Plugins\BaseProvider;
 use LaravelLang\HttpStatuses\Plugins\Main;
+use LaravelLang\Publisher\Plugins\BaseProvider;
 
 class Provider extends BaseProvider
 {

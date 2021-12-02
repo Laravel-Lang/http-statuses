@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use Helldar\LaravelLangPublisher\Concerns\Has;
-use Helldar\LaravelLangPublisher\Concerns\Paths;
-use Helldar\LaravelLangPublisher\Constants\Config;
-use Helldar\LaravelLangPublisher\Constants\Locales;
-use Helldar\LaravelLangPublisher\Constants\Locales as LocalesList;
-use Helldar\LaravelLangPublisher\ServiceProvider;
-use Helldar\Support\Facades\Helpers\Filesystem\Directory;
+use DragonCode\Support\Facades\Helpers\Filesystem\Directory;
+use DragonCode\Support\Facades\Helpers\Filesystem\File;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
+use LaravelLang\Publisher\Concerns\Has;
+use LaravelLang\Publisher\Concerns\Paths;
+use LaravelLang\Publisher\Constants\Config;
+use LaravelLang\Publisher\Constants\Locales;
+use LaravelLang\Publisher\Constants\Locales as LocalesList;
+use LaravelLang\Publisher\ServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Tests\Providers\HttpStatusesProvider;
+use Tests\Providers\AppServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {
@@ -45,7 +45,10 @@ abstract class TestCase extends BaseTestCase
 
     protected function getPackageProviders($app): array
     {
-        return [ServiceProvider::class];
+        return [
+            AppServiceProvider::class,
+            ServiceProvider::class,
+        ];
     }
 
     protected function getEnvironmentSetUp($app)
@@ -62,10 +65,6 @@ abstract class TestCase extends BaseTestCase
 
         $config->set(Config::PUBLIC_KEY . '.excludes', [
             'http-statuses' => ['unknownError', '0', '100', '101', '102'],
-        ]);
-
-        $config->set(Config::PUBLIC_KEY . '.plugins', [
-            HttpStatusesProvider::class,
         ]);
     }
 

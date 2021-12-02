@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace LaravelLang\HttpStatuses\Plugins;
 
-use Helldar\LaravelLangPublisher\Plugins\BasePlugin;
+use LaravelLang\Publisher\Plugins\BasePlugin;
 
 class Main extends BasePlugin
 {
