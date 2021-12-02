@@ -8,11 +8,6 @@ use Helldar\LaravelLangPublisher\Plugins\BasePlugin;
 
 class Main extends BasePlugin
 {
-    public function vendor(): string
-    {
-        return 'laravel-lang/http-statuses';
-    }
-
     public function files(): array
     {
         return [
