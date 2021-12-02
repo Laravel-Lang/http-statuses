@@ -16,40 +16,25 @@ To get the latest version of `Laravel Lang: HTTP Statuses` library, simply requi
 $ composer require laravel-lang/http-statuses --dev
 ```
 
-Instead, you may of course manually update your `require` block and run `composer update` if you so choose:
+Instead, you may of course manually update your `require-dev` block and run `composer update` if you so choose:
 
 ```json
 {
-    "require": {
-        "laravel-lang/http-statuses": "^1.0"
+    "require-dev": {
+        "laravel-lang/http-statuses": "^2.0"
     }
 }
 ```
 
 ## Using
 
-To install files from this repository into your project, you need to install the [andrey-helldar/laravel-lang-publisher](https://github.com/andrey-helldar/laravel-lang-publisher)
-version `^10.1` and above and specify the namespace of this project in its configuration.
+To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://github.com/Laravel-Lang/publisher)
+version `^11.1` and above.
 
-For example:
+Yes, that's all 😊
 
-```php
-// config/lang-publisher.php
+Now the package is connected to your application and you can [manage localizations](https://laravel-lang.github.io/publisher/using).
 
-<?php
-
-return [
-    // ...
-
-    /*
-     * Determines from which packages to synchronize localization files.
-     */
-
-    'plugins' => [
-        \LaravelLang\HttpStatuses\Provider::class,
-    ],
-];
-```
 
 [badge_stable]:     https://img.shields.io/github/v/release/laravel-lang/http-statuses?label=stable&style=flat-square
 
