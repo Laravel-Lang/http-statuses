@@ -27,9 +27,9 @@
         "ext-json": "*"
     },
     "require-dev": {
-        "laravel-lang/publisher": "^12.2",
+        "laravel-lang/publisher": "^13.0",
         "orchestra/testbench": "^5.0 || ^6.0 || ^7.0",
-        "phpunit/phpunit": "^9.4",
+        "phpunit/phpunit": "^9.5",
         "symfony/var-dumper": "^5.0 || ^6.0"
     },
     "minimum-stability": "stable",
