@@ -76,6 +76,6 @@ return [
     '522' => 'Tempo Limite Da Conexão',
     '523' => 'Origem É Inacessível',
     '524' => 'Ocorreu Um Tempo Limite',
-    '525' => 'Falha No Handshake SSL,
+    '525' => 'Falha No Handshake SSL',
     '526' => 'Certificado SSL Inválido',
 ];
