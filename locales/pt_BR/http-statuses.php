@@ -35,7 +35,7 @@ return [
     '404' => 'Página Não Encontrada',
     '405' => 'Método Não Permitido',
     '406' => 'Não Aceitável',
-    '407' => 'Autenticação de proxy necessária',
+    '407' => 'Autenticação De Proxy Necessária',
     '408' => 'Tempo Limite De Requisição',
     '409' => 'Conflito',
     '410' => 'Perdido',
