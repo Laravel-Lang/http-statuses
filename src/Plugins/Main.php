@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace LaravelLang\HttpStatuses\Plugins;
 
-use LaravelLang\Publisher\Plugins\BasePlugin;
+use LaravelLang\Publisher\Plugins\Plugin;
 
-class Main extends BasePlugin
+class Main extends Plugin
 {
     public function files(): array
     {
