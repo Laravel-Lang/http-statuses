@@ -21,7 +21,7 @@ Instead, you may of course manually update your `require-dev` block and run `com
 ```json
 {
     "require-dev": {
-        "laravel-lang/http-statuses": "^2.0"
+        "laravel-lang/http-statuses": "^3.0"
     }
 }
 ```
@@ -29,7 +29,7 @@ Instead, you may of course manually update your `require-dev` block and run `com
 ## Using
 
 To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://github.com/Laravel-Lang/publisher)
-version `^11.1` and above.
+version `^14.0` and above.
 
 Yes, that's all 😊
 
