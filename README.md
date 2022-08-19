@@ -1,6 +1,6 @@
 # Laravel Lang: HTTP Statuses
 
-List of 77 languages for HTTP statuses
+![laravel lang http statuses](https://preview.dragon-code.pro/laravel-lang/http-statuses.svg?brand=laravel&invert=1)
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
