@@ -73,7 +73,7 @@
     "524": "Aikakatkaisu tapahtui",
     "525": "SSL-kättely epäonnistui",
     "526": "Virheellinen SSL-sertifikaatti",
-    "527": "Railgun Error",
+    "527": "Railgun virhe",
     "598": "Verkon lukuaikakatkaisuvirhe",
     "599": "Verkkoyhteyden aikakatkaisuvirhe",
     "unknownError": "Tuntematon virhe"
