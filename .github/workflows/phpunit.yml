@@ -1,4 +1,4 @@
-name: "Laravel 9"
+name: phpunit
 
 on: [ push, pull_request ]
 
@@ -8,13 +8,7 @@ jobs:
     laravel:
         runs-on: ubuntu-latest
 
-        strategy:
-            fail-fast: true
-            matrix:
-                php: [ "8.1" ]
-                laravel: [ "9.0" ]
-
-        name: PHP ${{ matrix.php }}
+        name: PHP Unit
 
         steps:
             -   name: Checkout code
@@ -23,12 +17,13 @@ jobs:
             -   name: Setup PHP
                 uses: shivammathur/setup-php@v2
                 with:
-                    php-version: ${{ matrix.php }}
                     extensions: curl, mbstring, zip, pcntl, pdo, pdo_sqlite, iconv
                     coverage: none
+                env:
+                    COMPOSER_TOKEN: ${{ secrets.COMPOSER_TOKEN }}
 
             -   name: Install dependencies
-                run: composer require laravel/framework:^${{ matrix.laravel }}
+                run: composer update --prefer-stable --prefer-dist --no-progress --no-interaction
 
             -   name: Execute tests
                 run: sudo vendor/bin/phpunit --colors=always
