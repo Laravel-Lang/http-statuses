@@ -7,33 +7,17 @@
 [![Total Downloads][badge_downloads]][link_packagist]
 [![License][badge_license]][link_license]
 
+## Documentation
 
-## Installation
+See the [documentation](https://laravel-lang.com) for detailed installation and [usage](https://laravel-lang.com/usage/general-principles.html) instructions.
 
-To get the latest version of `Laravel Lang: HTTP Statuses` library, simply require the project using [Composer](https://getcomposer.org):
+## Contributing
 
-```
-$ composer require laravel-lang/http-statuses --dev
-```
+Please see [CONTRIBUTING](https://laravel-lang.com/contributing.html) for details.
 
-Instead, you may of course manually update your `require-dev` block and run `composer update` if you so choose:
+## License
 
-```json
-{
-    "require-dev": {
-        "laravel-lang/http-statuses": "^3.0"
-    }
-}
-```
-
-## Using
-
-To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://github.com/Laravel-Lang/publisher)
-version `^14.0` and above.
-
-Yes, that's all 😊
-
-Now the package is connected to your application and you can [manage localizations](https://laravel-lang.github.io/publisher/using).
+This package is licensed under the [MIT License][link_license].
 
 
 [badge_stable]:     https://img.shields.io/github/v/release/laravel-lang/http-statuses?label=stable&style=flat-square
