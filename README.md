@@ -1,6 +1,6 @@
 # Laravel Lang: HTTP Statuses
 
-![laravel lang http statuses](https://preview.dragon-code.pro/laravel-lang/http-statuses.svg?brand=laravel&invert=1)
+![laravel lang http statuses](https://preview.dragon-code.pro/laravel-lang/http-statuses.svg?brand=laravel&mode=dark)
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
