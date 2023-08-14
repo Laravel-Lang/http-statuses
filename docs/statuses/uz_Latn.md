@@ -261,7 +261,7 @@ Forbidden
 
 </td><td width="50%">
 
-Page Not Found
+Not Found
 
 </td></tr>
 <tr><td width="50%">
