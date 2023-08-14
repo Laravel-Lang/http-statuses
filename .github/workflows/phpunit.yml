@@ -1,4 +1,4 @@
-name: phpunit
+name: Tests
 
 on: [ push, pull_request ]
 
@@ -7,8 +7,6 @@ permissions: read-all
 jobs:
     laravel:
         runs-on: ubuntu-latest
-
-        name: PHP Unit
 
         steps:
             -   name: Checkout code
