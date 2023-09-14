@@ -58,7 +58,7 @@
     "501": "Nincs implementálva",
     "502": "Rossz átjáró",
     "503": "Karbantartás Mód",
-    "504": "Gateway Timeout",
+    "504": "Átjáró időtúllépés",
     "505": "A HTTP-verzió nem támogatott",
     "506": "A változat is tárgyal",
     "507": "Elégtelen tárhely",
