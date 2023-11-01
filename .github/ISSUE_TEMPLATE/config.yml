@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+    -   name: Bug Request
+        url: https://github.com/Laravel-Lang/common/issues/new?assignees=&labels=bug%2Chttp-statuses&projects=&template=bug_report.yml
+        about: Report a bug or other issue
+    -   name: Feature Request
+        url: https://github.com/Laravel-Lang/common/issues/new?assignees=&labels=feature%2Chttp-statuses&projects=&template=feature_request.yml
+        about: Propose a new feature
     -   name: Questions & Other
         url: https://github.com/Laravel-Lang/common/discussions
         about: 'If you want to ask about something else, use the discussions.'
