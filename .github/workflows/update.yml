@@ -43,7 +43,7 @@ jobs:
 
                     vendor/bin/lang create
 
-                    { git add . && git commit -a -m "Adding missing locales"; } || IS_DIRTY=0
+                    { git add . && git commit -a -m "✏️ Adding missing locales"; } || IS_DIRTY=0
 
                     echo "is_dirty=${IS_DIRTY}" >> "$GITHUB_OUTPUT"
 
@@ -55,7 +55,7 @@ jobs:
 
                     vendor/bin/lang sync
 
-                    { git add . && git commit -a -m "Updating translations keys"; } || IS_DIRTY=0
+                    { git add . && git commit -a -m "🔑 Synchronization of translation keys"; } || IS_DIRTY=0
 
                     echo "is_dirty=${IS_DIRTY}" >> "$GITHUB_OUTPUT"
 
@@ -67,7 +67,7 @@ jobs:
 
                     vendor/bin/lang status
 
-                    { git add . && git commit -a -m "Updated status of translations"; } || IS_DIRTY=0
+                    { git add . && git commit -a -m "📃 Translation statuses have been updated"; } || IS_DIRTY=0
 
                     echo "is_dirty=${IS_DIRTY}" >> "$GITHUB_OUTPUT"
 
