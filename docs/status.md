@@ -4,7 +4,7 @@ editLink: false
 
 # Completion Status
 
-> Translation of localizations is completed by **92.69%** (5.6K / 6K).
+> Translation of localizations is completed by **91.5%** (5.6K / 6.1K).
 
 <table width="100%">
 <tr><td width="12%">
@@ -99,14 +99,18 @@ editLink: false
 
 </td><td width="12%">
 
-[he&nbsp;✔](statuses/he.md)
+[gu&nbsp;❗](statuses/gu.md)
 
 </td><td width="12%">
 
-[hi&nbsp;✔](statuses/hi.md)
+[he&nbsp;✔](statuses/he.md)
 
 </td></tr>
 <tr><td width="12%">
+
+[hi&nbsp;✔](statuses/hi.md)
+
+</td><td width="12%">
 
 [hr&nbsp;❗](statuses/hr.md)
 
@@ -134,12 +138,12 @@ editLink: false
 
 [ja&nbsp;✔](statuses/ja.md)
 
-</td><td width="12%">
+</td></tr>
+<tr><td width="12%">
 
 [ka&nbsp;✔](statuses/ka.md)
 
-</td></tr>
-<tr><td width="12%">
+</td><td width="12%">
 
 [kk&nbsp;✔](statuses/kk.md)
 
@@ -167,12 +171,12 @@ editLink: false
 
 [mk&nbsp;✔](statuses/mk.md)
 
-</td><td width="12%">
+</td></tr>
+<tr><td width="12%">
 
 [mn&nbsp;✔](statuses/mn.md)
 
-</td></tr>
-<tr><td width="12%">
+</td><td width="12%">
 
 [mr&nbsp;✔](statuses/mr.md)
 
@@ -200,12 +204,12 @@ editLink: false
 
 [oc&nbsp;❗](statuses/oc.md)
 
-</td><td width="12%">
+</td></tr>
+<tr><td width="12%">
 
 [pl&nbsp;❗](statuses/pl.md)
 
-</td></tr>
-<tr><td width="12%">
+</td><td width="12%">
 
 [ps&nbsp;✔](statuses/ps.md)
 
@@ -233,12 +237,12 @@ editLink: false
 
 [si&nbsp;✔](statuses/si.md)
 
-</td><td width="12%">
+</td></tr>
+<tr><td width="12%">
 
 [sk&nbsp;❗](statuses/sk.md)
 
-</td></tr>
-<tr><td width="12%">
+</td><td width="12%">
 
 [sl&nbsp;✔](statuses/sl.md)
 
@@ -266,12 +270,12 @@ editLink: false
 
 [sw&nbsp;✔](statuses/sw.md)
 
-</td><td width="12%">
+</td></tr>
+<tr><td width="12%">
 
 [tg&nbsp;✔](statuses/tg.md)
 
-</td></tr>
-<tr><td width="12%">
+</td><td width="12%">
 
 [th&nbsp;✔](statuses/th.md)
 
@@ -299,12 +303,12 @@ editLink: false
 
 [ur&nbsp;✔](statuses/ur.md)
 
-</td><td width="12%">
+</td></tr>
+<tr><td width="12%">
 
 [uz_Cyrl&nbsp;✔](statuses/uz_Cyrl.md)
 
-</td></tr>
-<tr><td width="12%">
+</td><td width="12%">
 
 [uz_Latn&nbsp;❗](statuses/uz_Latn.md)
 
