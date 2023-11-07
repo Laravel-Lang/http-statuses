@@ -4,12 +4,12 @@ editLink: false
 
 # sr_Latn
 
-##### All missed: 154
+##### All missed: 152
 
 
 ### json
 
-##### Missing: 76
+##### Missing: 75
 
 <table width="100%">
 <tr><th width="50%">
@@ -406,15 +406,6 @@ Not Modified
 </td><td width="50%">
 
 Not Modified
-
-</td></tr>
-<tr><td width="50%">
-
-OK
-
-</td><td width="50%">
-
-OK
 
 </td></tr>
 <tr><td width="50%">
@@ -713,7 +704,7 @@ Web Server is Down
 
 ### php
 
-##### Missing: 78
+##### Missing: 77
 
 <table width="100%">
 <tr><th width="50%">
@@ -759,15 +750,6 @@ Switching Protocols
 </td><td width="50%">
 
 Processing
-
-</td></tr>
-<tr><td width="50%">
-
-200
-
-</td><td width="50%">
-
-OK
 
 </td></tr>
 <tr><td width="50%">

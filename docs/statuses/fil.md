@@ -4,12 +4,12 @@ editLink: false
 
 # fil
 
-##### All missed: 8
+##### All missed: 6
 
 
 ### json
 
-##### Missing: 4
+##### Missing: 3
 
 <table width="100%">
 <tr><th width="50%">
@@ -46,15 +46,6 @@ Multi-Status
 </td><td width="50%">
 
 Multi-Status
-
-</td></tr>
-<tr><td width="50%">
-
-OK
-
-</td><td width="50%">
-
-OK
 
 </td></tr>
 </table>
@@ -65,7 +56,7 @@ OK
 
 ### php
 
-##### Missing: 4
+##### Missing: 3
 
 <table width="100%">
 <tr><th width="50%">
@@ -77,15 +68,6 @@ Key
 Value
 
 </th></tr>
-<tr><td width="50%">
-
-200
-
-</td><td width="50%">
-
-OK
-
-</td></tr>
 <tr><td width="50%">
 
 207
