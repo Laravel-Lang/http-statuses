@@ -11,7 +11,8 @@ class Main extends Plugin
     public function files(): array
     {
         return [
-            'http-statuses.php' => '{locale}/http-statuses.php',
+            'numerical.php' => '{locale}/http-statuses.php',
+            'textual.json'  => '{locale}.json',
         ];
     }
 }
