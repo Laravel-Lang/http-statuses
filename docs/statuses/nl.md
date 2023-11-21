@@ -4,62 +4,7 @@ editLink: false
 
 # nl
 
-##### All missed: 2
+##### All missed: 0
 
-
-### json
-
-##### Missing: 1
-
-<table width="100%">
-<tr><th width="50%">
-
-Key
-
-</th><th width="50%">
-
-Value
-
-</th></tr>
-<tr><td width="50%">
-
-Conflict
-
-</td><td width="50%">
-
-Conflict
-
-</td></tr>
-</table>
-
-[ [go back](../status.md) | [to top](#) ]
-
-
-
-### php
-
-##### Missing: 1
-
-<table width="100%">
-<tr><th width="50%">
-
-Key
-
-</th><th width="50%">
-
-Value
-
-</th></tr>
-<tr><td width="50%">
-
-409
-
-</td><td width="50%">
-
-Conflict
-
-</td></tr>
-</table>
-
-[ [go back](../status.md) | [to top](#) ]
+All lines are translated 😊
 
