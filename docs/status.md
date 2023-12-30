@@ -2,6 +2,7 @@
 editLink: false
 ---
 
+
 # Completion Status
 
 > Translation of localizations is completed by **93.11%** (11.2K / 12K).
