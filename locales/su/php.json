@@ -1,5 +1,5 @@
 {
-    "0": "Kasalahan anu teu dipikanyaho",
+    "0": "Kasalahan teu dipikanyaho",
     "100": "Teraskeun",
     "101": "Ngalihkeun Protokol",
     "102": "Ngolah",
@@ -16,14 +16,14 @@
     "300": "Sababaraha Pilihan",
     "301": "Dipindahkeun Permanén",
     "302": "Kapanggih",
-    "303": "Tingali Lain",
+    "303": "Tempo Lain",
     "304": "Teu dirobah",
     "305": "Paké Proxy",
     "307": "Alihan samentara",
     "308": "Alihan permanén",
     "400": "Panyungkeunan salah",
     "401": "Teu sah",
-    "402": "Diperlukeun mayar",
+    "402": "Mayar Diperlukeun",
     "403": "Dilarang",
     "404": "Henteu kapendak",
     "405": "Métode Teu Diidinan",
@@ -66,7 +66,7 @@
     "509": "Wates Bandwidth Ngalangkungan",
     "510": "Teu Dipanjangan",
     "511": "Auténtikasi Jaringan Diperlukeun",
-    "520": "Kasalahan anu teu dipikanyaho",
+    "520": "Kasalahan teu dipikanyaho",
     "521": "Server wéb Turun",
     "522": "Sambungan Timed Out",
     "523": "Asal Teu Bisa Dijangkau",
@@ -76,5 +76,5 @@
     "527": "Kasalahan Railgun",
     "598": "Kasalahan Waktos Baca Jaringan",
     "599": "Kasalahan Waktos Sambung Jaringan",
-    "unknownError": "Kasalahan anu teu dipikanyaho"
+    "unknownError": "Kasalahan teu dipikanyaho"
 }
