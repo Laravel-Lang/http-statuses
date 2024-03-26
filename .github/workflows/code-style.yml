@@ -12,15 +12,13 @@ jobs:
             -   name: Checkout code
                 uses: actions/checkout@v4
 
-            -   name: Detect job name
-                id: detect
-                run: |
-                    NAME=${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && 'Fix' || 'Check' }}
-
-                    echo "name=${NAME}" >> $GITHUB_OUTPUT
-
-            -   name: ${{ steps.detect.outputs.name }} the code style
+            -   name: Check the code style
                 uses: TheDragonCode/codestyler@v4
+                if: ${{ github.event_name != 'push' || github.ref != 'refs/heads/main' }}
+
+            -   name: Fix the code style
+                uses: TheDragonCode/codestyler@v4
+                if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
                 with:
                     github_token: ${{ secrets.COMPOSER_TOKEN }}
-                    fix: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+                    fix: true
