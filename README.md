@@ -11,13 +11,21 @@
 
 See the [documentation](https://laravel-lang.com/packages-http-statuses.html) for detailed installation.
 
+## Communication
+
+We also have official [chats](https://t.me/addlist/l0XGtvEIBiljMTMy) in Telegram.
+
 ## Contributing
 
 Please see [CONTRIBUTING](https://laravel-lang.com/contributions.html) for details.
 
+## Support Us
+
+❤️ Laravel Lang? Please consider supporting our collective on [Boosty](https://boosty.to/laravel-lang).
+
 ## License
 
-This package is licensed under the [MIT License][link_license].
+This package is licensed under the [MIT License](https://laravel-lang.com/license.html).
 
 
 [badge_stable]:     https://img.shields.io/github/v/release/laravel-lang/http-statuses?label=stable&style=flat-square
