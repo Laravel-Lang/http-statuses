@@ -40,7 +40,7 @@
     "Not Acceptable": "Pas acceptable",
     "Not Extended": "Non prolongé",
     "Not Found": "Page non trouvée",
-    "Not Implemented": "Pas implémenté",
+    "Not Implemented": "Non implémenté",
     "Not Modified": "Non modifié",
     "OK": "OK",
     "Origin Is Unreachable": "L'origine est inaccessible",
@@ -74,5 +74,5 @@
     "URI Too Long": "URI trop long",
     "Use Proxy": "Utiliser un proxy",
     "Variant Also Negotiates": "La variante négocie également",
-    "Web Server is Down": "Le serveur web est en panne"
+    "Web Server is Down": "Le serveur Web est en panne"
 }
