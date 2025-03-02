@@ -1,6 +1,6 @@
 {
     "name": "laravel-lang/http-statuses",
-    "description": "List of 126 languages for HTTP statuses",
+    "description": "List of 127 languages for HTTP statuses",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -29,7 +29,7 @@
     },
     "require-dev": {
         "laravel-lang/status-generator": "^1.19 || ^2.0",
-        "phpunit/phpunit": "^10.0",
+        "phpunit/phpunit": "^10.0 || ^11.0 || ^12.0",
         "symfony/var-dumper": "^6.0 || ^7.0"
     },
     "minimum-stability": "stable",
