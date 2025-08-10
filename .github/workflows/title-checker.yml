@@ -11,4 +11,4 @@ on:
 
 jobs:
   Check:
-    uses: Laravel-Lang/.github/.github/workflows/title-checker.yml@main+
+    uses: Laravel-Lang/.github/.github/workflows/title-checker.yml@main
