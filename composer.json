@@ -49,6 +49,7 @@
             "dragon-code/codestyler": true,
             "ergebnis/composer-normalize": true,
             "friendsofphp/php-cs-fixer": true,
+            "laravel/pint": true,
             "php-http/discovery": true,
             "symfony/thanks": true
         },

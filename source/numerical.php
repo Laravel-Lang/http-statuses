@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'unknownError' => 'Unknown Error',
     '0'            => 'Unknown Error',
