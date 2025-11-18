@@ -1,6 +1,6 @@
 {
     "name": "laravel-lang/http-statuses",
-    "description": "List of 127 languages for HTTP statuses",
+    "description": "Translation of HTTP statuses",
     "license": "MIT",
     "type": "library",
     "keywords": [
