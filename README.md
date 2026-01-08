@@ -1,6 +1,6 @@
 # Laravel Lang: HTTP Statuses
 
-![laravel lang http statuses](https://preview.dragon-code.pro/laravel-lang/http-statuses.svg?brand=laravel&mode=dark)
+![laravel lang http statuses](https://banners.beyondco.de/HTTP%20Statuses.png?theme=light&packageManager=composer+require&packageName=laravel-lang%2Fhttp-statuses+--dev&pattern=topography&style=style_2&description=by+Laravel+Lang&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Total Downloads][badge_downloads]][link_packagist]
