@@ -1,0 +1,10 @@
+---
+editLink: false
+---
+
+# ga
+
+##### All missed: 0
+
+All lines are translated 😊
+
