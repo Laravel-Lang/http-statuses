@@ -1,8 +1,0 @@
-plugins:
-    -   vendor: 'laravel/framework'
-        files:
-            -   source: 'text.json'
-                target: '{locale}.json'
-
-            -   source: 'numeric.php'
-                target: '{locale}/http-statuses.php'
