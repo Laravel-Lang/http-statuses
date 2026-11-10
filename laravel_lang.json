@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        {
+            "files": [
+                {
+                    "source": "numerical.php",
+                    "target": "{locale}/http-statuses.php"
+                },
+                {
+                    "source": "textual.json",
+                    "target": "{locale}.json"
+                }
+            ]
+        }
+    ]
+}
