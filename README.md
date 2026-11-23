@@ -11,11 +11,11 @@
 
 ## Documentation
 
-See the [documentation](https://laravel-lang.com/20.x/packages#translation-packs) for detailed installation.
+See the [documentation](https://laravel-lang.com/plugins#official-translation-packs) for detailed installation.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://laravel-lang.com/20.x/contributing) for details.
+Please see [CONTRIBUTING](https://laravel-lang.com/contributing) for details.
 
 ## Support Us
 
@@ -23,7 +23,7 @@ Please see [CONTRIBUTING](https://laravel-lang.com/20.x/contributing) for detail
 
 ## License
 
-This package is licensed under the [MIT License](https://laravel-lang.com/20.x/license).
+This package is licensed under the [MIT License](https://laravel-lang.com/license).
 
 [badge_stable]: https://img.shields.io/github/v/release/laravel-lang/http-statuses?label=stable&style=flat-square
 [badge_downloads]: https://img.shields.io/packagist/dt/laravel-lang/http-statuses.svg?style=flat-square
