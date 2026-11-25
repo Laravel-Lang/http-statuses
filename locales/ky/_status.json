@@ -1,8 +1,0 @@
-{
-    "json": {
-        "Bad Gateway": "Bad Gateway",
-        "Gone": "Gone",
-        "Railgun Error": "Railgun Error",
-        "Switching Protocols": "Switching Protocols"
-    }
-}
