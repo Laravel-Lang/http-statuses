@@ -1,0 +1,6 @@
+{
+    "json": {
+        "Bad Gateway": "Bad Gateway",
+        "Gateway Timeout": "Gateway Timeout"
+    }
+}
