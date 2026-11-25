@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Laravel-Lang/mona/main/resources/laravel-lang.schema.json",
+    "plugins": [
+        {
+            "files": [
+                {
+                    "source": "numerical.php",
+                    "target": "{locale}/http-statuses.php"
+                },
+                {
+                    "source": "textual.json",
+                    "target": "{locale}.json"
+                }
+            ]
+        }
+    ]
+}
