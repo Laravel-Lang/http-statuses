@@ -12,7 +12,7 @@
 
 ## Documentation
 
-See the [documentation](https://laravel-lang.com/start) for detailed information.
+[Install the HTTP Statuses translation pack.](https://laravel-lang.com/plugins#official-translation-packs)
 
 ## Contributing
 
