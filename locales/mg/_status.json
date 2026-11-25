@@ -1,8 +1,0 @@
-{
-    "json": {
-        "Bad Gateway": "Bad Gateway",
-        "Client Closed Request": "Client Closed Request",
-        "OK": "OK",
-        "Railgun Error": "Railgun Error"
-    }
-}
