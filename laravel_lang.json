@@ -4,11 +4,11 @@
         {
             "files": [
                 {
-                    "source": "numerical.php",
+                    "source": "http-statuses.php",
                     "target": "{locale}/http-statuses.php"
                 },
                 {
-                    "source": "textual.json",
+                    "source": "http-statuses.json",
                     "target": "{locale}.json"
                 }
             ]
